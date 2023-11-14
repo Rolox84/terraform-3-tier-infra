@@ -9,8 +9,8 @@ variable "private_subnet2" {
 }
 
 variable "tags" {
-    type = map(string)
-    description = "vpc id"
+  type = map(string)
+  description = "tags"
 }
 
 variable "vpc_id" {
@@ -21,5 +21,4 @@ variable "vpc_id" {
 variable "vpc_cidr" {
     type = string
     description = "cidr range"
-}
 }
